@@ -18,7 +18,7 @@ def verify_key():
         sys.exit(1)
 
 def generate_key():
-    key = "AZIM-ULTIMATE-2025"
+    key = "TRAILKEY-FREE"
     with open(KEYS_FILE, "w") as f:
         json.dump({"license_key": key}, f)
     print(f"License key generated and saved to keys.json: {key}")
